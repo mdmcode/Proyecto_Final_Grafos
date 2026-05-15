@@ -16,10 +16,10 @@ El sistema permite:
 
 ## 2. Archivos principales
 
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/main.py`: interfaz de consola y flujo principal.
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/grafo.py`: estructura del grafo y algoritmos.
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/visualizacion.py`: dibujo del grafo con `networkx` y `matplotlib`.
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/requirements.txt`: dependencias necesarias.
+- `main.py`: interfaz de consola y flujo principal.
+- `grafo.py`: estructura del grafo y algoritmos.
+- `visualizacion.py`: dibujo del grafo con `networkx` y `matplotlib`.
+- `requirements.txt`: dependencias necesarias.
 
 ## 3. Requisitos
 
