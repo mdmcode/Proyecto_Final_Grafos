@@ -10,10 +10,10 @@ El sistema permite calcular rutas mínimas, verificar conectividad, detectar cic
 
 ## Estructura de archivos
 
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/grafo.py`: clase `GrafoCampus` y algoritmos (Dijkstra, BFS, DFS, Kruskal, grados).
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/main.py`: interfaz interactiva de consola.
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/visualizacion.py`: visualización con `networkx` + `matplotlib`.
-- `/home/runner/work/Proyecto_Final_-Grafos/Proyecto_Final_-Grafos/requirements.txt`: dependencias.
+- `grafo.py`: clase `GrafoCampus` y algoritmos (Dijkstra, BFS, DFS, Kruskal, grados).
+- `main.py`: interfaz interactiva de consola.
+- `visualizacion.py`: visualización con `networkx` + `matplotlib`.
+- `requirements.txt`: dependencias.
 
 ## Requisitos
 
