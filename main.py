@@ -8,9 +8,11 @@ Institución: UAO
 
 from __future__ import annotations
 
+import argparse
 from typing import Callable
 
 from grafo import GrafoCampus
+from gui import iniciar_gui
 from visualizacion import visualizar_grafo
 
 
@@ -181,5 +183,22 @@ def iniciar_aplicacion() -> None:
             print(f"Error inesperado: {error}")
 
 
+def parsear_argumentos() -> argparse.Namespace:
+    """Parsea argumentos de ejecución."""
+    parser = argparse.ArgumentParser(
+        description="Sistema de recomendación de rutas en campus universitario.",
+    )
+    parser.add_argument(
+        "--gui",
+        action="store_true",
+        help="Inicia la versión gráfica (Tkinter).",
+    )
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    iniciar_aplicacion()
+    argumentos = parsear_argumentos()
+    if argumentos.gui:
+        iniciar_gui()
+    else:
+        iniciar_aplicacion()
