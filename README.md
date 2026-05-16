@@ -1,6 +1,6 @@
 # Manual de usuario - Sistema de Recomendación de Rutas en Campus Universitario
 
-Este proyecto modela una red de edificios y caminos dentro de un campus universitario mediante un **grafo ponderado no dirigido**. Desde una aplicación de consola, el usuario puede cargar un mapa base del campus, agregar nodos y aristas, consultar representaciones del grafo, calcular rutas mínimas y visualizar resultados.
+Este proyecto modela una red de edificios y caminos dentro de un campus universitario mediante un **grafo ponderado no dirigido**. El sistema ofrece una versión de consola y una versión gráfica (GUI) para cargar un mapa base del campus, agregar nodos y aristas, consultar representaciones del grafo, calcular rutas mínimas y visualizar resultados.
 
 ## 1. Objetivo del sistema
 
@@ -46,13 +46,21 @@ pip install -r requirements.txt
 
 ## 5. Ejecución
 
-Para iniciar la aplicación, ejecute:
+Para iniciar la aplicación en modo consola, ejecute:
 
 ```bash
 python main.py
 ```
 
 Al iniciar, el sistema mostrará un menú interactivo y solicitará una opción entre `a` y `l`.
+
+Para iniciar la aplicación en modo gráfico (GUI), ejecute:
+
+```bash
+python main.py --gui
+```
+
+La GUI abre una ventana con botones para cada operación (cargar grafo, agregar nodos/aristas, ejecutar algoritmos y visualizar resultados), además de un panel de salida para ver los resultados textuales.
 
 ## 6. Menú principal
 
