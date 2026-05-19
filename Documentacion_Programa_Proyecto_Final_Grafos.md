@@ -4,6 +4,7 @@
 **Estructura discreta implementada:** Grafo ponderado no dirigido \(G=(V,E,w)\)  
 **Lenguaje:** Python  
 **Fecha:** Mayo 2026  
+**Equipo:** Iván Fernando Flechas Plaza y María Del Mar Mosquera Caicedo  
 
 ---
 
